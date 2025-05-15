@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 public class BeanUtils extends org.springframework.beans.BeanUtils
 {
     /** Bean方法名中属性名开始的下标 */
+    //修改代码
     private static final int BEAN_METHOD_PROP_INDEX = 3;
 
     /** * 匹配getter方法的正则表达式 */
